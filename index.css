@@ -81,7 +81,44 @@ blockquote{
     *{
         flex-direction: column;
     }
+    h1{
+
+    }
     .all{
+    border:none;
+    width: 100%;
+    margin:0;
+    border-radius:0;
+}
+.top{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+.foot{
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+}
+}
+@media screen and (max-width:510px) {
+    h1{
+        font-size: 24px;
+    }
+    .side{
+        float:none;
         width:100%;
+    }
+    .side p{
+        padding:10px 0px;
+        padding-left:12px;
+        border-bottom:1px solid rgba(139, 132, 132, 0.849);
+    }
+    .late{
+        display: none;
+    }
+    .word {
+        float: none;
+        width: 90%;
+        margin-top: 30px;
+        padding-left: 16px;
     }
 }
