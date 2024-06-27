@@ -81,9 +81,6 @@ blockquote{
     *{
         flex-direction: column;
     }
-    h1{
-
-    }
     .all{
     border:none;
     width: 100%;
